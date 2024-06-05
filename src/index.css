@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.login-bg {
+  background-image: url("assets/kasumi.png");
+  height: 100vh;
+  border-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-form-login {
+  margin-top: 20px;
+}
+
+.container-forgot-password {
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  /* height: 100vh; */
+}
+
+.login-forgot-password {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.login-form-container {
+  margin-top: 50px;
+}
+
+.container-remember-me {
+  /* display: grid; */
+  /* place-items: center; */
+  /* margin-top: 20px; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.remember-me-label {
+  margin-left: 10px;
+}
